@@ -1,5 +1,5 @@
 ## Gopass Test
-## Instalation
+## Installation
 gopass is a simple but powerful password manager for your terminal.
 Each secret lives inside of a `gpg` encrypted file and it has a great integration with git and easier management of recipients
 https://www.gopass.pw/#install
@@ -42,9 +42,6 @@ If you want to add a teammate GPG key so they can read the file you have to:
  - Have them upload the public key to a key server. Ex.: https://keyserver.ubuntu.com
  - Add the public GPG key to your key ring:
 
-  
-
-  
 
     gpg --keyserver keyserver.ubuntu.com --recv-keys {KEY_ID}
 
