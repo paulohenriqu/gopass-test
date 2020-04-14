@@ -37,7 +37,7 @@ To see the decrypted deatails of an account use this command:
 
     gopass show COMPE/033/PF/name
 ## Add Recipients
-If you want to add a teammate GPG key so they can read the file you have to:
+If you want to add a teammate GPG key, so they can read the files, you have to:
 
  - Have them upload the public key to a key server. Ex.: https://keyserver.ubuntu.com
  - Add the public GPG key to your key ring:
@@ -49,7 +49,7 @@ If you want to add a teammate GPG key so they can read the file you have to:
 
     gpg --keyserver keyserver.ubuntu.com --recv-keys 04CE38DA9A9E0A3F
 
- - Add the key to the Gopass store:
+ - Add the key to the gopass store:
 	
 
     gopass recipients add email@pm.me
